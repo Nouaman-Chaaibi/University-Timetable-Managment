@@ -9,7 +9,7 @@ root.resizable(True,True)
 
 
 def run_python_file(filename):
-    subprocess.run(['python3', filename])
+    subprocess.run(['python', filename])
     
 
 #images
